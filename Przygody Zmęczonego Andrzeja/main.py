@@ -24,7 +24,6 @@ energy = 100
 move = False
 pygame.time.set_timer(pygame.USEREVENT, 5000)
 #intro
-'''
 screen.fill((0,0,0))
 fn.text("Jesteś Andrzej, masz 42 lata",font,(300,300),screen)
 pygame.display.flip()
@@ -37,7 +36,7 @@ screen.fill((0,0,0))
 fn.text("Twoim celem jest odnalezienie mieszkania w jednym z bloków",font,(200,280),screen)
 pygame.display.flip()
 time.sleep(5)
-'''
+
 #loop
 while running:
     for event in pygame.event.get():
